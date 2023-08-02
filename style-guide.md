@@ -33,3 +33,12 @@ The designs were created to the following widths:
 
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

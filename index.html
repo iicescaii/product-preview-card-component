@@ -4,21 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
     <title>Frontend Mentor | Product preview card component</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
 <body>
     <div class="container">
         <article>
             <picture>
-                <source media="(min-width: 640px)" src="/images/image-product-desktop.jpg">
-                <img src="/images/image-product-mobile.jpg" alt="">
+                <source media="(min-width: 640px)" srcset="./images/image-product-desktop.jpg" />
+                <img src="./images/image-product-mobile.jpg" alt="" />
             </picture>
         </article>
 
@@ -38,7 +34,7 @@
                 <li><s>$169.99</s></li>
             </ul>
 
-            <button class="button">
+            <button class="btn">
                 <img src="/images/icon-cart.svg" alt=""> Add to Cart
             </button>
         </article>
@@ -46,7 +42,7 @@
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Francesca P. Togonon</a>.
     </div>
 </body>
 
